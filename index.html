@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma de Inteligência Artificial</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--HEADER-->
+    <header>
+        <h1>Plataforma Avançada de Inteligência Artificial</h1>
+        <p>Soluções modernas baseadas em machine learning, automação e análise de dados.</p>
+        <button id="btnTema">Mudar Tema</button>
+        
+    </header>
+
+    <!--NAV-->
+    <nav>
+        <ul>
+            <li><a href="#modelos">Modelos de IA</a></li>
+            <li><a href="#treinamento">Treinamento</a></li>
+            <li><a href="#apis">APIs</a></li>
+            <li><a href="#documentacao">Documentação</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+        </ul>
+    </nav>
+
+    <!--LAYOUT PRINCIPAL -->
+    <main>
+        <!-- Seção 1 -->
+        <section id="modelos">
+            <h2>Modelos de Inteligência Artificial</h2>
+            <article>
+                <h3>Arquitetura dos Modelos</h3>
+                <p>
+                    Nossa plataforma utiliza uma variedade de arquiteturas avançadas de IA, incluindo Redes Neurais
+                    Profundas (DNNs), Transformers, Modelos Generativos e Redes Convolucionais. Cada modelo é
+                    otimizado com técnicas de regularização, ajuste de hiperparâmetros e validação cruzada, garantindo
+                    alta performance e estabilidade durante inferências em tempo real.
+                </p>
+                <p>
+                    Os modelos passam por um processo contínuo de melhoria baseado em métricas como precisão,
+                    recall, F1-score e latência operacional. Todas as execuções são monitoradas por um pipeline de
+                    MLOps que registra logs, auditoria de inferências e versionamento automático de modelos,
+                    permitindo reprodutibilidade total e rastreamento de variações.
+                </p>
+            </article>
+
+            <article>
+                <h3>Modelos Disponíveis</h3>
+                <p>
+                    A plataforma oferece modelos especializados em diversas áreas: processamento de linguagem natural,
+                    visão computacional, análise preditiva, automação de decisões, reconhecimento de padrões e
+                    geração de conteúdo multimodal. São versões otimizadas para servidores, dispositivos móveis e
+                    ambientes embarcados, permitindo escalabilidade horizontal e adaptação a cargas dinâmicas.
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção 2 -->
+        <section id="treinamento">
+            <h2>Ambiente de Treinamento</h2>
+            <article>
+                <h3>Pipeline de Treinamento</h3>
+                <p>
+                    O ambiente de treinamento é completamente automatizado e conta com um sistema de ingestão de dados
+                    distribuído, responsável por pré-processamento, limpeza, anotação automática e balanceamento
+                    inteligente das amostras. Nosso motor de treinamento utiliza GPUs e TPUs em clusters paralelos,
+                    permitindo a execução de bilhões de parâmetros sem afetar a latência da plataforma.
+                </p>
+                <p>
+                    O usuário pode monitorar o processo em tempo real, acessando gráficos de perda (loss),
+                    acurácia geral, matrizes de confusão e comparações entre versões de datasets. Além disso,
+                    fornecemos ferramentas de early-stopping, batch-normalization e fine-tuning adaptativo.
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção 3 -->
+        <section id="apis">
+            <h2>Integração via APIs</h2>
+            <article>
+                <h3>APIs Inteligentes</h3>
+                <p>
+                    A plataforma disponibiliza endpoints REST e WebSocket otimizados para aplicações de alta
+                    demanda. Nossas APIs permitem operações como classificação de texto, análise de sentimento,
+                    tradução neural, detecção de objetos, geração de imagens e automação de workflows.  
+                </p>
+                <p>
+                    Cada endpoint passa por stack de segurança composta por autenticação JWT, criptografia TLS,
+                    rate-limiting dinâmico e monitoramento de tráfego com detecção de anomalias baseada em IA.
+                </p>
+            </article>
+        </section>
+
+        <!-- Seção 4 -->
+        <section id="documentacao">
+    <h2>Documentação Técnica</h2>
+    <article>
+        <h3>Guia Avançado</h3>
+        <p>
+            Esta documentação aborda o núcleo de processamento interno da plataforma, detalhando o pipeline de
+            execução, a arquitetura modular dos serviços e o fluxo completo de mensagens entre clientes,
+            orquestradores e workers. São explicados os protocolos internos, os padrões de serialização adotados,
+            o sistema de filas distribuídas e os mecanismos de isolamento entre processos executores.
+        </p>
+
+        Também há seções sobre:
+        <ul>
+            <li>escalonamento dinâmico de processos,</li>
+            <li>gerenciamento de sessões persistentes,</li>
+            <li>monitoramento de integridade dos nós,</li>
+            <li>controle de versão de modelos e artefatos,</li>
+            <li>otimizações para execução paralela em clusters híbridos.</li>
+        </ul>
+    </article>
+</section>
+
+<section id="arquitetura">
+    <h2>Arquitetura da IA</h2>
+    <p>
+        A IA foi construída sobre um núcleo modular capaz de processar consultas em 
+        diferentes níveis de complexidade. A arquitetura utiliza um pipeline de 
+        interpretação que passa por etapas como tokenização, análise sintática, 
+        inferência contextual e geração de resposta.  
+    </p>
+    <p>
+        O design prioriza baixa latência, permitindo que respostas sejam geradas 
+        mesmo em dispositivos com hardware limitado, graças a mecanismos internos 
+        de compressão e otimização de pesos.
+    </p>
+
+    <ul>
+        <li><strong>Módulo de Contexto:</strong> mantém o histórico e adapta o tom da IA.</li>
+        <li><strong>Módulo de Raciocínio:</strong> valida coerência e evita ambiguidades.</li>
+        <li><strong>Módulo de Execução:</strong> produz a resposta final com refinamento.</li>
+        <li><strong>Cache Adaptativo:</strong> acelera queries repetidas.</li>
+    </ul>
+</section>
+
+
+<section id="funcionalidades-avancadas">
+    <h2>Funcionalidades Avançadas</h2>
+    <article>
+        <h3>Correção Inteligente de Código</h3>
+        <p>
+            A IA detecta erros comuns em HTML, CSS e JavaScript, sugerindo 
+            correções automáticas com base em padrões realistas de projetos web.
+            Ela identifica más práticas, problemas de acessibilidade, 
+            inconsistências de semântica e gargalos de performance.
+        </p>
+    </article>
+
+    <article>
+        <h3>Explicações Técnicas Detalhadas</h3>
+        <p>
+            Além de sugerir códigos, a IA fornece explicações completas, incluindo:
+        </p>
+        <ul>
+            <li>por que a solução funciona;</li>
+            <li>quais métodos alternativos existem;</li>
+            <li>como melhorar escalabilidade e manutenção;</li>
+            <li>riscos e limites do approach utilizado.</li>
+        </ul>
+    </article>
+
+    <article>
+        <h3>Geração de Componentes</h3>
+        <p>
+            Ela cria componentes completos e responsivos, utilizando 
+            padrões modernos como BEM, CSS Grid, Flexbox e microcomponentização JS.
+        </p>
+    </article>
+</section>
+
+
+<section id="fluxo-operacional">
+    <h2>Fluxo Operacional da IA</h2>
+    <p>
+        Cada requisição passa por uma cadeia de etapas bem definidas:
+    </p>
+
+    <ol>
+        <li><strong>Recepção da Query:</strong> entendimento imediato do objetivo.</li>
+        <li><strong>Normalização:</strong> limpeza, estruturação e reorganização da entrada.</li>
+        <li><strong>Seleção de Estratégia:</strong> a IA escolhe o melhor método de resposta.</li>
+        <li><strong>Inferência:</strong> execução do raciocínio com otimizações internas.</li>
+        <li><strong>Validação:</strong> revisão automática da consistência e clareza.</li>
+        <li><strong>Entrega:</strong> retorno final refinado ao usuário.</li>
+    </ol>
+</section>
+
+
+<section id="seguranca">
+    <h2>Sistema de Segurança e Salvaguardas</h2>
+    <p>
+        A IA conta com um conjunto de restrições internas que evitam respostas inseguras,
+        ambiguidades críticas e comportamentos inesperados.  
+    </p>
+    <ul>
+        <li>Filtro de prompts potencialmente perigosos</li>
+        <li>Validação semântica para evitar contradições</li>
+        <li>Monitoramento interno de consistência lógica</li>
+        <li>Política de recusa para instruções de risco</li>
+    </ul>
+</section>
+
+
+<section id="roadmap">
+    <h2>Roadmap do Projeto</h2>
+    <p>
+        O desenvolvimento da IA segue etapas planejadas que visam tornar o sistema
+        cada vez mais robusto, modular e expansível.
+    </p>
+
+    <ul>
+        <li> Implementação de consultas multimodais</li>
+        <li> Sistema de memória persistente otimizada</li>
+        <li> API mais leve com resposta streaming</li>
+        <li> Integração com motores de busca internos</li>
+        <li> Painel visual com métricas de uso</li>
+    </ul>
+</section>
+
+
+<section id="tutorial-dev">
+    <h2>Guia para Desenvolvedores</h2>
+    <p>
+        Esta seção oferece orientações práticas para quem deseja integrar a IA 
+        em seus próprios projetos. O guia inclui exemplos reais e boas práticas 
+        focadas em modularidade, versionamento e segurança.
+    </p>
+
+    <article>
+        <h3>Exemplo Básico de Requisição</h3>
+        <pre><code>
+fetch("/api/minha-ia", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ pergunta: "Explique closures no JS" })
+})
+.then(res => res.json())
+.then(console.log);
+        </code></pre>
+    </article>
+
+    <article>
+        <h3>Boas práticas de integração</h3>
+        <ul>
+            <li>Use sempre tokens rotativos</li>
+            <li>Ative logs somente no modo desenvolvimento</li>
+            <li>Implemente limite de requisições por IP</li>
+            <li>Normalize sempre a entrada do usuário</li>
+        </ul>
+    </article>
+</section>
+
+    </main>
+    <!-- FOOTER-->
+    <footer>
+        <p>2025 Plataforma IA — Todos os direitos reservados.</p>
+        <p>Desenvolvida com tecnologias modernas de Inteligência Artificial.</p>
+    </footer>
+<script src="main.js"></script>
+<script src="data.json"></script>
+</body>
+</html>
